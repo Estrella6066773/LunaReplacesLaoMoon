@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PlanetLayerDef[defName="LAO_Surface_Luna"]/modExtensions/li[@Class="LayeredAtmosphereOrbit.LayeredAtmosphereOrbitDefModExtension"]/isOptionToAutoAdd</xpath>
+    <value>
+      <isOptionToAutoAdd>false</isOptionToAutoAdd>
+    </value>
+  </Operation>
+</Patch>
